@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add sass-loader node-sass --dev
+
+PATH: 
+  C:\bin\bin;C:\bin\vendor\conemu-maximus5\ConEmu\Scripts;C:\bin\vendor\conemu-maximus5;C:\bin\vendor\conemu-maximus5\ConEmu;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\prof\AppData\Local\Smartbar\Application\;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Users\prof\bin\Sencha\Cmd\6.0.1.76;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Gource\cmd;C:\maven339\bin;C:\Apps\apache-ant-1.9.7\bin;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\ComposerSetup\bin;C:\wamp\bin\php\php7.1.9;C:\Program Files (x86)\Yarn\bin\;C:\Users\prof\bin\Sencha\Cmd\6.0.1.76/..;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Ruby200\bin;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files\Boot2Docker for Windows;C:\Users\prof\AppData\Roaming\npm;C:\Users\prof\AppData\Local\Microsoft\WindowsApps;C:\bin;C:\Users\prof\AppData\Roaming\Composer\vendor\bin;C:\Users\prof\AppData\Local\Yarn\bin;C:\RailsInstaller\Git\usr\bin;C:\RailsInstaller\Git\usr\share\vim\vim74;C:\bin\
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  4.6.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+      "devDependencies": {
+          "@symfony/webpack-encore": "^0.17.0"
+      },
+      "license": "UNLICENSED",
+      "private": true,
+      "scripts": {
+          "dev-server": "encore dev-server",
+          "dev": "encore dev",
+          "watch": "encore dev --watch",
+          "build": "encore production"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Found incompatible module
+      at MessageError.Error (native)
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at checkOne (C:\Program Files (x86)\Yarn\lib\cli.js:62444:11)
+      at Object.check (C:\Program Files (x86)\Yarn\lib\cli.js:62463:5)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:22803:73
+      at next (native)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at run (C:\Program Files (x86)\Yarn\lib\cli.js:100334:22)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:100347:28
